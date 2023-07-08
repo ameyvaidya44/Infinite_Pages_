@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0px;
+            /* margin-top: 50px; */
+            padding: 0px;
+            /* color: whitesmoke; */
+            box-sizing: content-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+                'Noto Color Emoji';
+        }
+
+        header {
+            position: fixed;
+
+            /* z-index: 9999; */
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+
+        body {
+            background-color: rgb(249, 249, 249);
+        }
+
+        .nav {
+            /* border: solid white; */
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(40, 40, 40);
+        }
+
+        .nright {
+            display: flex;
+            /* border: solid yellow; */
+        }
+
+        .nleft {
+            /* border: solid red; */
+            display: flex;
+            color: antiquewhite;
+        }
+
+        .nleft img {
+            margin: 6px 0 0 0;
+        }
+
+        .nright a {
+            /* border: solid aqua; */
+            color: antiquewhite;
+            text-decoration: none;
+            display: block;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+                'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+                'Noto Color Emoji';
+            /* height: 100%; */
+        }
+
+        .nright a:hover {
+            color: aliceblue;
+            text-shadow: 0 0 20px antiquewhite, 0 0 40px antiquewhite, 0 0 60px antiquewhite, 0 0 80px antiquewhite;
+            transition: 1000ms;
+            /* text-decoration: underline; */
+        }
+
+        .wn {
+            display: flex;
+            justify-content: center;
+            font-family: Broadway;
+            font-size: 25px;
+        }
+        .nmid ul{
+            display: flex;
+            list-style: none;
+            /* padding: 20px; */
+        }
+        .nmid ul li a{
+            display: block;
+            padding: 20px;
+        }
+        .nmid ul li a:hover,.home{
+            color: white;
+            text-shadow: 0 0 20px antiquewhite, 0 0 40px antiquewhite, 0 0 60px antiquewhite, 0 0 80px antiquewhite;
+            transition: 1000ms;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="nleft">
+                <img src="New folder/logo.png" alt="" >
+                <!-- <h4 style="width: 250px; padding-top: 13px; font-size: 25px;">DIGITAL LIBRARY</h4> -->
+            </div>
+            <div class="nmid">
+                <ul>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="featured.html">FEATURED</a></li>
+                    <li><a href="#" class="home" style="border-bottom: solid antiquewhite;">BLOG</a></li>
+                </ul>
+            </div>
+            <div class="nright">
+                <div class="login"><a href="login.html">LOGIN</a></div>
+                <div class="signup"><a href="signup.html">SIGNUP</a></div>
+            </div>
+        </div>
+    </header>
+    <br><br><br>
+</body>
+
+</html>

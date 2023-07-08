@@ -1,0 +1,557 @@
+* {
+    margin: 0px;
+    /* margin-top: 50px; */
+    padding: 0px;
+    /* color: whitesmoke; */
+    box-sizing: content-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+        /* overflow: hidden; */
+        /* overflow-x: hidden; */
+    /* background-color: black; */
+}
+
+/* header {
+    position: fixed;
+
+    /* z-index: 9999; */
+/* width: 100%; */
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    /* transition: 1000ms; */
+    transition: all 0.3s ease;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+.nav {
+    /* border: solid white; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.427);
+    /* position: absolute; */
+}
+
+.nright {
+    display: flex;
+    /* border: solid yellow; */
+}
+
+.nleft {
+    /* border: solid red; */
+    display: flex;
+    color: antiquewhite;
+}
+
+.nleft img {
+    margin: 6px 0 0 0;
+}
+
+.nright a {
+    /* border: solid aqua; */
+    color: antiquewhite;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+    /* height: 100%; */
+}
+
+.nright a:hover {
+    color: aliceblue;
+    text-shadow: 0 0 20px antiquewhite, 0 0 40px antiquewhite;
+    transition: width 1000ms;
+    /* text-decoration: underline; */
+}
+
+.wn {
+    display: flex;
+    justify-content: center;
+    font-family: Broadway;
+    font-size: 25px;
+}
+
+.nmid ul {
+    display: flex;
+    list-style: none;
+    /* padding: 20px; */
+}
+
+.nmid ul li a {
+    display: block;
+    padding: 20px;
+}
+
+.nmid ul li a:hover {
+    color: white;
+    text-shadow: 0 0 20px antiquewhite, 0 0 40px antiquewhite;
+    /* transition: 1000ms; */
+    /* text-decoration: underline orangered; */
+}
+
+.main {
+    margin: 40px;
+    display: flex;
+    background-color: rgb(72, 72, 72);
+    color: antiquewhite;
+}
+
+.p2 {
+    padding: 20px;
+}
+
+/* .mta {
+    margin-top: 1px;
+    padding: 20px 20px 0 50px;
+    font-size: 20px;
+    color: antiquewhite;
+} */
+
+.rg {
+    padding: 0 20px;
+    font-size: 30px;
+
+}
+
+.hero {
+
+    background-image: url(library___.jpg);
+    background-color: black;
+    background-size: cover;
+    /* opacity: 0.2; */
+    height: 100vh;
+}
+
+.pg1 {
+    /* width: 100vw; */
+    /* height: 90vh; */
+    margin: 0px;
+    /* overflow: none; */
+    color: antiquewhite;
+    /* opacity: 1; */
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    position: relative;
+    top: 30%;
+
+}
+
+.heading {
+    /* position: relative; */
+    font-size: 50px;
+    font-weight: bolder;
+    align-ITEMS: center;
+    /* position: relative; */
+    /* top: 25%; */
+    /* left: 40%; */
+}
+
+.heading2 {
+    align-items: center;
+    position: relative;
+    top: 30%;
+}
+
+.speciality {
+    display: grid;
+    background-color: black;
+    color: black;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    gap: 50px;
+    margin: 0 100px 0 100px;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 10px; */
+    height: 200px;
+    padding: 20px;
+}
+.box:hover{
+    box-shadow: 0 0 10px orangered;
+}
+
+.box i {
+    font-size: 45px;
+    margin: 40px 40px 10px 40px;
+    color: orangered;
+}
+
+.abtus {
+    margin: 50px;
+    color: antiquewhite;
+    display: flex;
+}
+
+.featuredbook {
+    display: flex;
+    /* width: 100%; */
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuredbook div {
+    height: 200px;
+    /* flex :; */
+    /* background-image: url(alchemist.png); */
+    width: 90px;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 15px;
+    transition: 400ms;
+    rotate: 10deg;
+}
+
+.featuredbook div:hover {
+    width: 180px;
+    height: 300px;
+    /* background-size: 300px; */
+    background-size: cover;
+    transition: 400ms;
+    rotate: 0deg;
+}
+
+.alchemist{
+    /* display: grid;
+    /* margin: 50px; */
+    /* grid-template-columns: auto auto auto;  */
+    /* width: 100px; */
+    display: flex;
+    margin: 50px;
+}
+.alchemist div{
+    width: fit-content;
+}
+.auth {
+    color: orangered;
+    /* margin-left: 50px; */
+}
+
+.info1 {
+    color: antiquewhite;
+    padding: 20px 20px 0 50px;
+}
+
+.notaf {
+    display: flex;
+    margin: 50px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.buynow {
+    display: block;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 20px;
+    background-color: orangered;
+    margin: 20px 0;
+    font-weight: bold;
+    width: 80px;
+    /* height: 50px; */
+    border: solid orangered;
+}
+.richdadpoordad,.wingsoffire{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+.a48laws{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+.toppicks{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+}
+.ftag{
+    color: antiquewhite;
+}
+.card{
+    width: fit-content;
+    margin: 10px;
+    transition: 1000ms;
+}
+.fimage{
+    /* width: 200px; */
+    /* height: 500px; */
+    /* background-size: cover; */
+    transition: 1000ms;
+}
+.fimage:hover img{
+    /* width: 200px; */
+    transition: 1000ms;
+}
+.card:hover{
+    box-shadow: 0 0 5px white;
+    transition: 1000ms;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.262);
+}
+::-webkit-scrollbar-thumb{
+    background: orangered;
+}
+.ftag{
+    text-align: center;
+}
+.writer{
+    color: orangered;
+}
+.learn{
+    text-decoration: underline;
+}
+.arrivals{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    text-align: center;
+    margin-left: 50px;
+}
+.arrivalscard:hover{
+    /* width: 300px; */
+    box-shadow: 0 0 20px orangered;
+    transition: 0.5s;
+}
+.newa{
+    color: antiquewhite;
+}
+.arrivalscard{
+    margin: 30px 0;
+    border: solid antiquewhite;
+    width: 250px;
+    padding: 25px;
+    gap: 10px;
+}
+.reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 30px;
+
+}
+.rcard{
+    color: antiquewhite;
+    border: solid whitesmoke;
+    padding: 40px;
+    box-shadow: 0 0 20px orangered;
+    margin: 10px;
+}
+.blogs{
+    display: grid;
+    gap: 40px;
+    margin: 40px;
+    grid-template-columns: 3fr 3fr 3fr;
+
+}
+.blogcard{
+    border: solid antiquewhite;
+    box-shadow: 0 0 5px orangered;
+    color: antiquewhite;
+    padding: 25px;
+}
+.blogimg{
+    width: 400px;
+}
+.blogimg img{
+    background-size: cover;
+    width: 400px;
+}
+.user{
+    color: orangered;
+    font-weight: bold;
+}
+.hero2{
+    background-color: black;
+    text-align: center;
+}
+.hheading{
+    color: aliceblue;
+    
+}
+.rdpdtext{
+    color: aliceblue;
+    text-align: center;
+}
+.quote{
+    display: flex;
+    padding: 50px 50px 50px 0;
+    margin-top: 30px;
+    width: 500px;
+    border: solid gray;
+    margin-left: 500px;
+    transition: 0.2s;
+}
+.quote:hover{
+    box-shadow: 0 0 20px orangered;
+    transition: 0.2s;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin: 50px;
+}
+.hl1{
+    color: aliceblue;
+    padding: 50px;
+    border: solid aliceblue;
+    transition: 0.2s;
+}
+.hl1:hover{
+    box-shadow: 0 0 20px orangered;
+    transition: 0.2s;
+}
+.buybutton{
+    text-decoration: none;
+    background-color: orangered;
+    color: black;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    width: 90vw;
+    margin: 0 5vw 0 3vw;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: none;
+    overflow-x: hidden;
+}
+.nav2{
+    background-color: rgb(53, 53, 53);
+    padding: 20px 50px;
+}
+.logn{
+    color: antiquewhite;
+}
+.wcbk{
+    color: orangered;
+}
+.heropg{
+    padding: 50px;
+    margin: 0 100px;
+}
+.qwerty{
+    color: antiquewhite;
+    font-size: 15px;
+}
+.input{
+    width: 75vw;
+    /* height: 30px; */
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px 0;
+}
+.btn{
+    display: block;
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+    /* height: 50px; */
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 7px
+}
+.lol{
+    color: aqua;
+    text-decoration: underline;
+}
+.heropage{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    /* margin: 0 100px; */
+}
+.special{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px 150px;
+    /* z-index: 0; */
+}
+.divbx{
+    color: antiquewhite;
+    padding: 20px;
+    border: solid antiquewhite;
+    text-align: center;
+    z-index: 9999;
+    background-color: black;
+}
+.fontawesome{
+    color: orangered;
+    font-size: 50px;
+    margin: 10px;
+}
+.loll{
+    margin: 15px;
+}
+.lmaos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lmao{
+    position: absolute;
+    top: 200px;      
+    background-color: orangered;
+    width: 50vw;
+    height: 90vh;
+    padding: 20px 190px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.headingg{
+    margin: 150px 10px 25px 10px;
+    text-align: center;
+}
+.contax{
+    margin: 10px 0;
+    width: 500px;
+    /* height: 30px; */
+    padding: 20px;
+    /* font-weight: bold; */
+    font-size: 15px;
+    
+}
+.ta{
+    padding: 20px;
+    font-size: 15px;    
+    margin-top: 10px;
+}
+.btn2{
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    transition: 1s;
+}
+.btn2:hover{
+    /* border-radius: 50%; */
+    rotate: 360deg;
+    transition: 1s;
+}
